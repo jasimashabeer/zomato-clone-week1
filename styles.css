@@ -1,0 +1,524 @@
+
+header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.headerimg{
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 50px;
+
+}
+
+.navbar{
+    display: flex;
+    
+    
+    
+}
+.navbar li{
+    justify-content: space-between;
+list-style: none;
+padding-left: 30px;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.getap{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+.gtapimg{
+    width: 13px;
+    margin-right: 5px;
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f0eeee;
+}
+.logo{
+    width: 250px;
+}
+.head h3{
+    font-size: 25px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content:flex-start ;
+    border-radius: 10px;
+    background-color: azure;
+    padding: 5px 0px ;
+}
+.search_input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.Search p{
+    color: gray;
+    border-right: 1px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 100px;
+  
+}
+
+.map_marker_img{
+    padding-left: 10px;
+    padding-left: 10px;
+}
+.search_icon_img{
+    padding-left: 20px;
+}
+.down_arrow{
+margin-left: -19px;
+}
+
+
+.sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+   
+}
+.img{
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.white{
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: solid;
+    border-color: rgb(215, 214, 214);
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.white p{
+   line-height:  5px; ;
+    color: grey;
+
+}
+
+.middle{
+    margin: 60px 90px;
+}
+.sec2 h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.sec2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2 h6{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: gray;
+}
+.sec2 span{
+    color: rgb(247, 145, 101);
+}
+
+.box2{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+.box2img{
+    width: 250px;
+    height: 250px;
+}
+.sec3{
+    display: flex;
+
+}
+.box2 div{
+margin-top: -28px;
+background-color: black;
+}
+.box2 div span{
+    color: aliceblue;
+    background-color: black;
+}
+
+
+
+
+.localities{
+   
+    margin-bottom: 100px;
+  
+}
+
+
+.loc-title{
+    margin: 0px;
+    padding: 5px;
+    color: rgb(54, 54, 54);
+    font-size: 2.3rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.city{
+    font-weight: 500;
+}
+.localities-list{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 5px;
+   margin: 45px 100px;
+
+    
+   
+}
+
+.locality{
+    padding: 12px 15px;
+    border-radius: 0.8rem;
+    background:rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 0.5rem;
+    width: 30%;
+    font-size: 16px;
+    box-shadow: rgba(28,28,28,0.08) 0px 1.4px 2.8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.place-heading{
+    font-size: 20px;
+    font-weight:100;
+    color: rgb(28,28,28);
+    margin: 0px 0px 0.5rem;
+
+}
+.places{
+    font-size: 14px;
+    color: rgb(54, 54, 54);  
+    font-weight: lighter; 
+}
+
+.locality:hover{
+    box-shadow: rgba(28,28,28,0.08) 0px 4px 8px;
+}
+.centre-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.app-img{
+    height:500px;
+    width: 35%;
+}
+.photo-app{
+width: 420px;
+}
+.app-section{
+  background-color: rgba(244, 244, 244,1);
+  display: flex; 
+  align-items: center; 
+  justify-content:space-around;
+  margin-top: 100px;
+ 
+}
+.app-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-heading{
+  font-size: 37px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+
+}
+.send-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+   color: rgb(77, 77, 87);
+}
+.radio-buttons{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+
+   
+    
+
+}
+.radiooo{
+    height: 18px;
+    width: 18px;
+}
+#phon-{
+margin-left: 35px;
+}
+.email-input{
+    font-size: 17px;
+    color: rgb(197, 192, 192);
+     padding: 15px 15px;
+    width: 270px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.share-button{
+    padding: 15px 25px;   
+    font-size: 17px;
+    color: aliceblue;
+    background-color: rgba(209, 28, 58, 0.8);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    
+
+.store{
+    width: 150px;
+    margin: 10px;
+}
+
+.dw-app-frm{
+    font-size: small;
+    color: rgba(156, 156, 156,1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.options-box{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 0, 0);
+    width: 80%;
+    padding: 21px 15px;
+    border: 1px solid rgb(222, 216, 216);
+    margin: 12px 5px;
+    border-radius: 5px;
+
+}
+
+
+.option-list{
+   margin-left: 70px;
+}
+.explore-title{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 70px;
+}
+
+
+
+
+
+.footer-section{
+    background-color: #f3f7f8;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 75px;
+    padding-bottom: 30px;
+}
+.flag-india{
+    height: 15px;
+    width: 20px;
+}
+.button-countries-lang{
+ display: flex;
+ width: 230px;
+ align-items: center;
+ justify-content: space-between;
+}
+.countries{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 7px;
+}
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.country-text{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lang-text{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footer-logo{
+width: 140px;
+}
+
+
+.middle-section{
+    margin-right: 150px;
+    margin-top: 18px;
+}
+
+
+.footer-links{
+    display: flex;
+  
+    justify-content: space-between;
+    
+   
+}
+ .footer-links ul{
+list-style: none;
+padding-left: 1px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+line-height: 27px;
+color: #7f7c7c;
+
+
+
+}
+
+.footer-links h6{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+color: rgb(60, 59, 59);
+font-weight: lighter;
+letter-spacing: 2px;
+margin: 0px;
+}
+
+
+.x-icon{
+    width: 20px;
+}
+.insta-img{
+    width: 20px;
+}
+.google-play-store{
+    width: 130px;
+}
+.apple-store{
+    width: 130px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.social-link-icons{
+    margin-top: 15px;
+}
+.social-link-icons span{
+margin: 2px;
+}
+.bottom-section{
+    margin-right: 85px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: #7f7c7c;
+
+}
+.option{
+ width: 90%;
+ height: 25px;
+ font-size: larger;
+ border: 1px solid rgb(209, 202, 202);  
+ margin-bottom: 20px; 
+ padding: 20px;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight:100;
+ color: #5a5858;
+}
+.explore{
+    background-color: #f6f7f8;
+}
